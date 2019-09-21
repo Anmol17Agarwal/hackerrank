@@ -8,4 +8,8 @@ public class Books {
     public void setBookName(String bookName) {
         this.bookName = bookName;
     }
+    public String getAuthorName(){
+        return authorName;
+    }
+
 }
