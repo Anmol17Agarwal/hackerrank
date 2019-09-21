@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Solution {
+public class Magic {
 
 }
 public class Books {
