@@ -1,4 +1,7 @@
 import java.util.Scanner;
+public class Solution {
+
+}
 public class Books {
     private String bookName;
     private String authorName;
