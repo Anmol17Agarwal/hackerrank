@@ -15,6 +15,11 @@ public class Magic {
                 book[i] = new Player(bookName, authorName, isbn);
 
             }
+            String header = String.format("%10s\t10s\t10s\t10s", "BookName", "AuthorName", "ISBN");
+            System.out.println(header);
+            //enhanced-for loop OR for each-loop
+            for (Books books: book) {
+                System.out.println(book);
         }
     }
 }
