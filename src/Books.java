@@ -20,6 +20,8 @@ public class Books {
     public void setIsbn(long isbn) {
         this.isbn = isbn;
     }
+    public Books(String bookName, String authorName, long isbn) {
 
+    }
 
 }
