@@ -4,7 +4,18 @@ public class Magic {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter numbers of Books");
         int a = scanner.nextInt();
-        Player[] player= new Player[a];
+        Books[] book= new book[a];
+        if (a > 0 ) {
+            for (int i = 0; i < a; i++) {
+                String bookName = scanner.nextLine().trim();
+                String authorName = scanner.nextLine().trim();
+                long isbn = scanner.nextLong();
+                scanner.nextLine().trim();
+
+                book[i] = new Player(bookName, authorName, isbn);
+
+            }
+        }
     }
 }
 public class Books {
