@@ -4,6 +4,7 @@ public class Magic {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter numbers of Books");
         int a = scanner.nextInt();
+        Player[] player= new Player[a];
     }
 }
 public class Books {
