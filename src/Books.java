@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Magic {
-
+    public static void main(String[] args) {
+    }
 }
 public class Books {
     private String bookName;
