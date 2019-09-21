@@ -21,7 +21,9 @@ public class Books {
         this.isbn = isbn;
     }
     public Books(String bookName, String authorName, long isbn) {
-
+        this.bookName=bookName;
+        this.authorName=authorName;
+        this.isbn=isbn;
     }
 
 }
