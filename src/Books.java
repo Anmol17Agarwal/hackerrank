@@ -17,5 +17,9 @@ public class Books {
     public long getIsbn() {
         return isbn;
     }
+    public void setIsbn(long isbn) {
+        this.isbn = isbn;
+    }
+
 
 }
